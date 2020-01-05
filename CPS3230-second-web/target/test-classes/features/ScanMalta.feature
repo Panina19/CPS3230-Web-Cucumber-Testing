@@ -30,9 +30,9 @@ Feature: ScanMalta
     Then my shopping cart should contain <num-products> items
     Examples:
       | num-products |
-      | 3            |
-      | 5            |
-      | 10           |
+      | 1            |
+      | 2            |
+      | 3           |
 
   Scenario: 6) Removing a product from cart
   Given I am a logged in user on the SCANMalta website using email "aabela007@gmail.com" and password "qwerty123"
